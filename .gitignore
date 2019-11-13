@@ -3,5 +3,8 @@ out
 node_modules
 yarn.lock
 *.js
+dist/
 
-data/*
+*.mat
+data/in/
+data/out/

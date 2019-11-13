@@ -1,6 +1,8 @@
 import { updateDOM } from "@thi.ng/transducers-hdom"
+import { sync } from "@thi.ng/rstream"
 
-const main = sync<any, any>().transform(
+
+const main = sync<any, any>({}).transform(
     updateDOM()
 );
 

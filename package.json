@@ -18,7 +18,10 @@
     "@thi.ng/hdom": "latest",
     "@thi.ng/hdom-canvas": "latest",
     "@thi.ng/math": "latest",
-    "@thi.ng/vectors": "latest"
+    "@thi.ng/rstream": "^2.5.6",
+    "@thi.ng/transducers-hdom": "^2.0.31",
+    "@thi.ng/vectors": "latest",
+    "@types/node": "^12.12.7"
   },
   "browserslist": [
     "last 3 Chrome versions"
